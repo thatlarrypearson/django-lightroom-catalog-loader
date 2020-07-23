@@ -1,0 +1,5 @@
+graft django_lr_loader
+graft django_lr_loader/management/commands
+graft django_lr_loader/templates
+prune media
+global-exclude *.py[co]
